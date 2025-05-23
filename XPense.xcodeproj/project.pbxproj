@@ -6,24 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		036F4ADF2DDFB7FD00F1ED62 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 036F4ADE2DDFB7F700F1ED62 /* README.md */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
 		036F498E2DDF6A0500F1ED62 /* XPense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XPense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		036F4ADE2DDFB7F700F1ED62 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		036F4B692DE0338300F1ED62 /* Exceptions for "XPense" folder in "XPense" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Configuration/Info.plist,
-			);
-			target = 036F498D2DDF6A0500F1ED62 /* XPense */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		036F49902DDF6A0500F1ED62 /* XPense */ = {
@@ -31,12 +17,9 @@
 			path = XPense;
 			sourceTree = "<group>";
 		};
-		036F49C12DDF763000F1ED62 /* XPense */ = {
+		036F4C082DE0367F00F1ED62 /* Xpense */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				036F4B692DE0338300F1ED62 /* Exceptions for "XPense" folder in "XPense" target */,
-			);
-			path = XPense;
+			path = Xpense;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -56,7 +39,7 @@
 			isa = PBXGroup;
 			children = (
 				036F4ADE2DDFB7F700F1ED62 /* README.md */,
-				036F49C12DDF763000F1ED62 /* XPense */,
+				036F4C082DE0367F00F1ED62 /* Xpense */,
 				036F498F2DDF6A0500F1ED62 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,7 +70,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				036F49902DDF6A0500F1ED62 /* XPense */,
-				036F49C12DDF763000F1ED62 /* XPense */,
+				036F4C082DE0367F00F1ED62 /* Xpense */,
 			);
 			name = XPense;
 			packageProductDependencies = (
@@ -135,7 +118,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				036F4ADF2DDFB7FD00F1ED62 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,8 +269,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,8 +302,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
