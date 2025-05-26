@@ -7,70 +7,24 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		036F498E2DDF6A0500F1ED62 /* XPense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XPense.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		036F4ADE2DDFB7F700F1ED62 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		037F91582DE4C7FD00E313CC /* Xpense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xpense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		036F4CE02DE0387600F1ED62 /* Exceptions for "XPense" folder in "XPense" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Configuration/Info.plist,
-				ContentView.swift,
-				"Extensions/Color+App.swift",
-				"Extensions/Gradient+App.swift",
-				"Extensions/UiFont+App.swift",
-				Gradient.swift,
-				Resources/Colors/Colors.xcassets,
-				"Resources/Fonts/Inter/Inter-Black.ttf",
-				"Resources/Fonts/Inter/Inter-BlackItalic.ttf",
-				"Resources/Fonts/Inter/Inter-Bold.ttf",
-				"Resources/Fonts/Inter/Inter-BoldItalic.ttf",
-				"Resources/Fonts/Inter/Inter-ExtraBold.ttf",
-				"Resources/Fonts/Inter/Inter-ExtraBoldItalic.ttf",
-				"Resources/Fonts/Inter/Inter-ExtraLight.ttf",
-				"Resources/Fonts/Inter/Inter-ExtraLightItalic.ttf",
-				"Resources/Fonts/Inter/Inter-Italic.ttf",
-				"Resources/Fonts/Inter/Inter-Light.ttf",
-				"Resources/Fonts/Inter/Inter-LightItalic.ttf",
-				"Resources/Fonts/Inter/Inter-Medium.ttf",
-				"Resources/Fonts/Inter/Inter-MediumItalic.ttf",
-				"Resources/Fonts/Inter/Inter-Regular.ttf",
-				"Resources/Fonts/Inter/Inter-SemiBold.ttf",
-				"Resources/Fonts/Inter/Inter-SemiBoldItalic.ttf",
-				"Resources/Fonts/Inter/Inter-Thin.ttf",
-				"Resources/Fonts/Inter/Inter-ThinItalic.ttf",
-				Resources/Icons/Assets.xcassets,
-				Theme/Colors/ColorTheme.swift,
-				Theme/Fonts/FontTheme.swift,
-				Theme/Fonts/InterFont.swift,
-				Theme/Fonts/TextStyle.swift,
-				XPenseApp.swift,
-			);
-			target = 036F498D2DDF6A0500F1ED62 /* XPense */;
-		};
-		036F4D022DE039F700F1ED62 /* Exceptions for "Xpense" folder in "XPense" target */ = {
+		037F91B82DE4CA2D00E313CC /* Exceptions for "Xpense" folder in "Xpense" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Configuration/Info.plist,
 			);
-			target = 036F498D2DDF6A0500F1ED62 /* XPense */;
+			target = 037F91572DE4C7FD00E313CC /* Xpense */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		036F49902DDF6A0500F1ED62 /* XPense */ = {
+		037F915A2DE4C7FD00E313CC /* Xpense */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				036F4CE02DE0387600F1ED62 /* Exceptions for "XPense" folder in "XPense" target */,
-			);
-			path = XPense;
-			sourceTree = "<group>";
-		};
-		036F4C082DE0367F00F1ED62 /* Xpense */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				036F4D022DE039F700F1ED62 /* Exceptions for "Xpense" folder in "XPense" target */,
+				037F91B82DE4CA2D00E313CC /* Exceptions for "Xpense" folder in "Xpense" target */,
 			);
 			path = Xpense;
 			sourceTree = "<group>";
@@ -78,7 +32,7 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		036F498B2DDF6A0500F1ED62 /* Frameworks */ = {
+		037F91552DE4C7FD00E313CC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -88,20 +42,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		036F49852DDF6A0500F1ED62 = {
+		037F914F2DE4C7FD00E313CC = {
 			isa = PBXGroup;
 			children = (
-				036F4ADE2DDFB7F700F1ED62 /* README.md */,
-				036F4C082DE0367F00F1ED62 /* Xpense */,
-				036F498F2DDF6A0500F1ED62 /* Products */,
+				037F915A2DE4C7FD00E313CC /* Xpense */,
+				037F91592DE4C7FD00E313CC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		036F498F2DDF6A0500F1ED62 /* Products */ = {
+		037F91592DE4C7FD00E313CC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				036F498E2DDF6A0500F1ED62 /* XPense.app */,
-				036F49902DDF6A0500F1ED62 /* XPense */,
+				037F91582DE4C7FD00E313CC /* Xpense.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,65 +61,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		036F498D2DDF6A0500F1ED62 /* XPense */ = {
+		037F91572DE4C7FD00E313CC /* Xpense */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 036F49992DDF6A0700F1ED62 /* Build configuration list for PBXNativeTarget "XPense" */;
+			buildConfigurationList = 037F91632DE4C7FF00E313CC /* Build configuration list for PBXNativeTarget "Xpense" */;
 			buildPhases = (
-				036F498A2DDF6A0500F1ED62 /* Sources */,
-				036F498B2DDF6A0500F1ED62 /* Frameworks */,
-				036F498C2DDF6A0500F1ED62 /* Resources */,
+				037F91542DE4C7FD00E313CC /* Sources */,
+				037F91552DE4C7FD00E313CC /* Frameworks */,
+				037F91562DE4C7FD00E313CC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				036F49902DDF6A0500F1ED62 /* XPense */,
-				036F4C082DE0367F00F1ED62 /* Xpense */,
+				037F915A2DE4C7FD00E313CC /* Xpense */,
 			);
-			name = XPense;
+			name = Xpense;
 			packageProductDependencies = (
 			);
-			productName = XPense;
-			productReference = 036F498E2DDF6A0500F1ED62 /* XPense.app */;
+			productName = Xpense;
+			productReference = 037F91582DE4C7FD00E313CC /* Xpense.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		036F49862DDF6A0500F1ED62 /* Project object */ = {
+		037F91502DE4C7FD00E313CC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1630;
 				LastUpgradeCheck = 1630;
 				TargetAttributes = {
-					036F498D2DDF6A0500F1ED62 = {
+					037F91572DE4C7FD00E313CC = {
 						CreatedOnToolsVersion = 16.3;
 					};
 				};
 			};
-			buildConfigurationList = 036F49892DDF6A0500F1ED62 /* Build configuration list for PBXProject "XPense" */;
+			buildConfigurationList = 037F91532DE4C7FD00E313CC /* Build configuration list for PBXProject "Xpense" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 036F49852DDF6A0500F1ED62;
+			mainGroup = 037F914F2DE4C7FD00E313CC;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 036F498F2DDF6A0500F1ED62 /* Products */;
+			productRefGroup = 037F91592DE4C7FD00E313CC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				036F498D2DDF6A0500F1ED62 /* XPense */,
+				037F91572DE4C7FD00E313CC /* Xpense */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		036F498C2DDF6A0500F1ED62 /* Resources */ = {
+		037F91562DE4C7FD00E313CC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -177,7 +128,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		036F498A2DDF6A0500F1ED62 /* Sources */ = {
+		037F91542DE4C7FD00E313CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -187,7 +138,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		036F49972DDF6A0700F1ED62 /* Debug */ = {
+		037F91612DE4C7FF00E313CC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -251,7 +202,7 @@
 			};
 			name = Debug;
 		};
-		036F49982DDF6A0700F1ED62 /* Release */ = {
+		037F91622DE4C7FF00E313CC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -308,7 +259,7 @@
 			};
 			name = Release;
 		};
-		036F499A2DDF6A0700F1ED62 /* Debug */ = {
+		037F91642DE4C7FF00E313CC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -318,10 +269,11 @@
 				DEVELOPMENT_TEAM = B9W7594SR5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = XPense/Configuration/Info.plist;
+				INFOPLIST_FILE = Xpense/Configuration/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -329,7 +281,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kamaldgrt.XPense;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kamaldgrt.Xpense;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -341,7 +293,7 @@
 			};
 			name = Debug;
 		};
-		036F499B2DDF6A0700F1ED62 /* Release */ = {
+		037F91652DE4C7FF00E313CC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -351,10 +303,11 @@
 				DEVELOPMENT_TEAM = B9W7594SR5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = XPense/Configuration/Info.plist;
+				INFOPLIST_FILE = Xpense/Configuration/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -362,7 +315,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kamaldgrt.XPense;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kamaldgrt.Xpense;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -377,25 +330,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		036F49892DDF6A0500F1ED62 /* Build configuration list for PBXProject "XPense" */ = {
+		037F91532DE4C7FD00E313CC /* Build configuration list for PBXProject "Xpense" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				036F49972DDF6A0700F1ED62 /* Debug */,
-				036F49982DDF6A0700F1ED62 /* Release */,
+				037F91612DE4C7FF00E313CC /* Debug */,
+				037F91622DE4C7FF00E313CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		036F49992DDF6A0700F1ED62 /* Build configuration list for PBXNativeTarget "XPense" */ = {
+		037F91632DE4C7FF00E313CC /* Build configuration list for PBXNativeTarget "Xpense" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				036F499A2DDF6A0700F1ED62 /* Debug */,
-				036F499B2DDF6A0700F1ED62 /* Release */,
+				037F91642DE4C7FF00E313CC /* Debug */,
+				037F91652DE4C7FF00E313CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 036F49862DDF6A0500F1ED62 /* Project object */;
+	rootObject = 037F91502DE4C7FD00E313CC /* Project object */;
 }

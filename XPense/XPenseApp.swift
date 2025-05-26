@@ -1,12 +1,12 @@
 //
-// XPenseApp.swift
-// XPense
+// XpenseApp.swift
+// Xpense
 //
 
 import SwiftUI
 
 @main
-struct XPenseApp: App {
+struct XpenseApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

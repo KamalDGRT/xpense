@@ -1,6 +1,6 @@
 //
 // ContentView.swift
-// XPense
+// Xpense
 //
 
 import SwiftUI
