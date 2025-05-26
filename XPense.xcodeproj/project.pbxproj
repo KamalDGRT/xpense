@@ -11,14 +11,67 @@
 		036F4ADE2DDFB7F700F1ED62 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		036F4CE02DE0387600F1ED62 /* Exceptions for "XPense" folder in "XPense" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Configuration/Info.plist,
+				ContentView.swift,
+				"Extensions/Color+App.swift",
+				"Extensions/Gradient+App.swift",
+				"Extensions/UiFont+App.swift",
+				Gradient.swift,
+				Resources/Colors/Colors.xcassets,
+				"Resources/Fonts/Inter/Inter-Black.ttf",
+				"Resources/Fonts/Inter/Inter-BlackItalic.ttf",
+				"Resources/Fonts/Inter/Inter-Bold.ttf",
+				"Resources/Fonts/Inter/Inter-BoldItalic.ttf",
+				"Resources/Fonts/Inter/Inter-ExtraBold.ttf",
+				"Resources/Fonts/Inter/Inter-ExtraBoldItalic.ttf",
+				"Resources/Fonts/Inter/Inter-ExtraLight.ttf",
+				"Resources/Fonts/Inter/Inter-ExtraLightItalic.ttf",
+				"Resources/Fonts/Inter/Inter-Italic.ttf",
+				"Resources/Fonts/Inter/Inter-Light.ttf",
+				"Resources/Fonts/Inter/Inter-LightItalic.ttf",
+				"Resources/Fonts/Inter/Inter-Medium.ttf",
+				"Resources/Fonts/Inter/Inter-MediumItalic.ttf",
+				"Resources/Fonts/Inter/Inter-Regular.ttf",
+				"Resources/Fonts/Inter/Inter-SemiBold.ttf",
+				"Resources/Fonts/Inter/Inter-SemiBoldItalic.ttf",
+				"Resources/Fonts/Inter/Inter-Thin.ttf",
+				"Resources/Fonts/Inter/Inter-ThinItalic.ttf",
+				Resources/Icons/Assets.xcassets,
+				Theme/Colors/ColorTheme.swift,
+				Theme/Fonts/FontTheme.swift,
+				Theme/Fonts/InterFont.swift,
+				Theme/Fonts/TextStyle.swift,
+				XPenseApp.swift,
+			);
+			target = 036F498D2DDF6A0500F1ED62 /* XPense */;
+		};
+		036F4D022DE039F700F1ED62 /* Exceptions for "Xpense" folder in "XPense" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Configuration/Info.plist,
+			);
+			target = 036F498D2DDF6A0500F1ED62 /* XPense */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		036F49902DDF6A0500F1ED62 /* XPense */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				036F4CE02DE0387600F1ED62 /* Exceptions for "XPense" folder in "XPense" target */,
+			);
 			path = XPense;
 			sourceTree = "<group>";
 		};
 		036F4C082DE0367F00F1ED62 /* Xpense */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				036F4D022DE039F700F1ED62 /* Exceptions for "Xpense" folder in "XPense" target */,
+			);
 			path = Xpense;
 			sourceTree = "<group>";
 		};
